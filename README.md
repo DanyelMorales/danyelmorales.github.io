@@ -1,2 +1,2 @@
-# ¡Bienvenido al código fuente de mi blog en Github!
-Estoy construyendo mi sitio web, ten paciencia...
+# Blog personal de Daniel Vera Morales
+Este blog almacena las ideas y pensamientos que corresponden a temas relacionados con el desarrollo de software. En este sitio espero poder compartir mis puntos de vista basándome en el estado del arte de mi carrera, es decir, siempre que pueda y aplique procuraré referenciar a grandes autores que han acumulado experiencia con respecto al tema que se redacte.
