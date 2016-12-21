@@ -4,7 +4,6 @@
 {% assign lang=site.lang %}
 {% endif %}
 
-
 {% assign posts=paginator.posts | where:"lang", lang %}
 <div class="posts-list">
   {% for post in posts %}
