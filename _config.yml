@@ -6,6 +6,7 @@
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://danyelmorales.github.io"
 baseurl: ""
+relative_permalinks: false
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -21,6 +22,7 @@ description: A blog about Software Engineering, principles and good practices
 
 # Default language
 lang: es
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
@@ -183,4 +185,3 @@ prose:
 
 gems:
   - jekyll-paginate
-  - jekyll-CategoryPage

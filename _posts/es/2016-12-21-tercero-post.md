@@ -1,8 +1,8 @@
 ---
 layout: post
-title: third post!
+title: Tercer post!
 tags: [random, exciting-stuff]
 lang: es
 ---
 
-tercero
+Post en espanol 3

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Second post!
+title: Primero post!
 tags: [random, exciting-stuff]
 lang: es
 ---
 
-segundo
+Post en espanol 1
