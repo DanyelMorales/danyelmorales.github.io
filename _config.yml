@@ -25,7 +25,7 @@ lang: es
 
 # List of links in the navigation bar
 navbar-links:
-  Es: "es"
+  #Es: "es"
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
@@ -183,4 +183,3 @@ prose:
 
 gems:
   - jekyll-paginate
-  - jekyll-CategoryPage
