@@ -150,6 +150,8 @@ prose:
     - /css
     - /img
     - /js
+    - /_posts/README.md
+    - /_posts/SUMMARY.md
   metadata:
     _posts:
       - name: "layout"
