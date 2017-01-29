@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ¿Qué es ingenier&iaquote;a del software?
+title: ¿Qué es ingeniería del software?
 tags:
   - software
-  - ingenier&iaquote;a
+  - ingeniería
 lang: es
 ---
 
