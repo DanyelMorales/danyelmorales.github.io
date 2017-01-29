@@ -18,22 +18,15 @@ Muchas veces el estado del arte tiende a producir conocimiento de mucho valor y 
 En general la ingeniería del software pretende afrontar los problemas comunes al momento de desarrollar software, muchos de los cuales minimizan la calidad del producto desarrollado. Para lograr medir la calidad, la ingeniería del software utiliza las siguientes características deseadas en un producto:
 
 * Mantenimiento
-
 * Confiabilidad y seguridad
-
 * Eficiencia
-
 * Aceptabilidad
-
-
 
 Antes de finalizar cabe destacar que la ingeniería del software abarca una cantidad enorme de conocimiento clasificado en diversas categorías. En resumen nuestra ingeniería es el“cómo se aplican”las teorías y fundamentos\(“que se realiza”\) de la ciencia de la computación.
 
-Luego entonces la ingeniería a diferencia de la ciencia de la computación se enfoca y preocupa en aplicar en un sentido práctico \(tomando en cuenta la complejidad del mundo real\) las teorías y formulaciones de los programas informáticos. 
+Luego entonces la ingeniería a diferencia de la ciencia de la computación se enfoca y preocupa en aplicar en un sentido práctico \(tomando en cuenta la complejidad del mundo real\) las teorías y formulaciones de los programas informáticos.
 
 Las preguntas que comúnmente me hago cuando determinó que es necesario aprender de otras experiencias son:
-
-
 
 * ¿Como lo hubiera resuelto algún ingeniero del software importante?
 * ¿Como lo hace Google?
