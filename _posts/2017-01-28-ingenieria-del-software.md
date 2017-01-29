@@ -7,9 +7,7 @@ tags:
 lang: es
 ---
 
-### ¿Qué es la ingeniería del software?
-
-Existen diversas respuestas y diversas interpretaciones para esa pregunta. Hace mucho tiempo tal vez habría respondido que en realidad la ingeniería del software no era más que la aplicación de diversas tecnologías para darle forma a una aplicación o programa computacional.
+Existen diversas respuestas e interpretaciones para esa pregunta. Hace mucho tiempo tal vez habría respondido que en realidad la ingeniería del software no era más que la aplicación de diversas tecnologías para darle forma a una aplicación o programa computacional.
 
 Más allá de una definición escolar, es mejor enlistar los beneficiosa que se brinda al aplicar ingeniería del software en nuestros proyectos. Basado en mi experiencia puedo decir que la ingeniería del software nos ayuda a no “reinventar la rueda” puesto que nos provee de conocimientos, vivencias, y experiencias que han sido probadas y que se sabe que funcionan. Todo lo anterior con el objetivo de generar un producto de calidad, que satisfaga al usuario pero también al desarrollador, además de entregarse en tiempo y dentro del presupuesto acordado.
 
