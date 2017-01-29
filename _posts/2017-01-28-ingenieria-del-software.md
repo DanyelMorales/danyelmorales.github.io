@@ -1,34 +1,44 @@
 ---
 layout: post
-title: El cliente siempre tiene la razón
+title: ¿Qué es ingenier&iaquote;a del software?
 tags:
-  - Desarrollo
-  - Requerimientos
-  - Cliente
+  - software
+  - ingenier&iaquote;a
 lang: es
 ---
 
-La frase del título es ampliamente utilizada en muchas empresas que prometen satisfacer al usuario con los servicios que ofrecen. En el mundo real la frase no es del todo aplicada bien sea por las políticas empresariales, por la poca habilidad de los empleados que deberían satisfacer al cliente o porque simplemente los procesos de las empresas fueron diseñados de un modo que no se apegan a la realidad.
+Existen diversas respuestas y diversas interpretaciones para ella. Hace mucho tiempo tal vez habría respondido que en realidad la ingeniería del software no era más que la aplicación de diversas tecnologías para darle forma a una aplicación o programa computacional.
 
-Pues bien, en el mundo del desarrollo de software también se lidia con la satisfacción del cliente. Muchas veces nosotros como ingenieros creemos que nuestra labor consiste en solo escribir código, montar los módulos y realizar un lanzamiento. El enfoque de aislarnos para escribir código dejando de lado las necesidades del cliente tiene un gran problema y se llama: Insatisfacción.
+Más allá de una definición escolar, es mejor enlistar los beneficiosa que se brinda al aplicar ingeniería del software en nuestros proyectos. Basado en mi experiencia puedo decir que la ingeniería del software nos ayuda a no “reinventar la rueda” puesto que nos provee de conocimientos, vivencias, y experiencias que han sido probadas y que se sabe que funcionan. Todo lo anterior con el objetivo de generar un producto de calidad, que satisfaga al usuario pero también al desarrollador, además de entregarse en tiempo y dentro del presupuesto acordado.
 
-### **Software para humanos**
+Este conocimiento del que hablo es aquello que denominan “Estado del arte” del software. El cual pretende enseñarnos el aprendizaje que surgió como resultado de la elaboración de proyectos realizados por otras personas. Dicho aprendizaje nos ayuda a solucionar o reducir alguna complejidad en los procesos de desarrollo de software y sistemas.
 
-Los ingenieros de software desarrollamos y producimos sistemas para ser utilizados por humanos, los humanos van desde el cliente, el que nos contrata incluso el que lo desarrollo y escribe el código llegando hasta el usuario final quien lo evalúa y es quien decidirá si es o no útil. Sin embargo, si nosotros no nos esforzamos por cumplir los objetivos y metas del cliente, este no será feliz. Y la realidad es que un cliente infeliz es alguien que no está a gusto con lo que le entreguemos.
+Muchas veces el estado del arte tiende a producir conocimiento de mucho valor y estabilidad tanto que se vuelve esencial y llega a estar vigente durante muchos años, a tal grado de considerarse como un conjunto de principios. Hay que tener muy en cuenta que cuando hablamos de principios no hablamos de “leyes” o “reglas”, solo hablamos de buenas prácticas que mientras más las apliquemos a nuestro software mayor serán las propiedades benéficas que poseerá.
 
-No importa que tan impresionante sea los módulos, subsistemas o que tan bien este diseñado pero si el cliente no está feliz, significa que definitivamente tenemos un problema con nuestro enfoque.
+En general la ingeniería del software pretende afrontar los problemas comunes al momento de desarrollar software, muchos de los cuales minimizan la calidad del producto desarrollado. Para lograr medir la calidad, la ingeniería del software utiliza las siguientes características deseadas en un producto:
 
-### ¿Qué abarca la satisfacción del cliente?
+* Mantenimiento
 
-La satisfacción del cliente es cambiante con el tiempo y con los requerimientos del sistema que se solicite. Sin embargo, no importa si existe un cambio de requerimientos o si el sistema se entrega y en el mantenimiento se solicitan cambios. Incluso si pasado los años el sistema se convierte en un sistema heredado, el cliente aún debe ser satisfecho.
+* Confiabilidad y seguridad
 
-No importa si el cliente solicita un requerimiento, y luego lo cambia o añade más cosas. No importa si pasado los 10 días de haberse entregado con el sistema funcionando el cliente solicita cambios, recuerda “el cliente siempre tiene la razón”.
+* Eficiencia
 
-### ¿De qué forma se puede asegurar la satisfacción del cliente?
+* Aceptabilidad
 
-Existen muchísimas herramientas que se han ido descubriendo con el paso del tiempo y que forman parte del estado del arte de la ingeniería del software. Con el tiempo básicamente se entendió y se descubrió que la clave está en aplicar las estrategias correctas en las fases de “toma de requerimientos” y “análisis”.
 
-La premisa principal de dichas herramientas y estrategias es la misma: “Entender las necesidades del cliente”. Sin embargo no esperes que el cliente entienda y que incluso sepa que es lo que quiere, para ello se requerirá de varias reuniones y sobre todo un buen set de preguntas que lo ayudarán y orientarán para aclarar sus ideas. Muchos pensarían que el cliente y el usuario son los enemigos del software, porque tienen la fama de realizar peticiones de cambio inesperados, sin embargo es ahí en ese punto cuando demostramos que tantas habilidades y que tan buena es nuestra aplicación de la ingeniería del software.
 
-En próximas entradas iré cubriendo más sobre las estrategias utilizadas para satisfacer al usuario y lo que “el buen software” es. 
+Antes de finalizar cabe destacar que la ingeniería del software abarca una cantidad enorme de conocimiento clasificado en diversas categorías. En resumen nuestra ingeniería es el“cómo se aplican”las teorías y fundamentos\(“que se realiza”\) de la ciencia de la computación.
+
+Luego entonces la ingeniería a diferencia de la ciencia de la computación se enfoca y preocupa en aplicar en un sentido práctico \(tomando en cuenta la complejidad del mundo real\) las teorías y formulaciones de los programas informáticos. 
+
+Las preguntas que comúnmente me hago cuando determinó que es necesario aprender de otras experiencias son:
+
+
+
+* ¿Como lo hubiera resuelto algún ingeniero del software importante?
+* ¿Como lo hace Google?
+* ¿Como lo hace Microsoft?
+* ¿Qué estrategias conocidas se pueden aplicar a este problema?
+
+
 
