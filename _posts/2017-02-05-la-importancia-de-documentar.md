@@ -1,12 +1,13 @@
 ---
-layout: post
-title: Documentación de software 
+lang: es
 tags:
   - software
   - ingeniería
   - documentación
-lang: es
+layout: post
+title: Documentación de software
 ---
+
 La documentación de productos de software es importante porque permite comunicar
 detalles que al inspeccionar un sistema no se pueden alcanzar a comprender con
 facilidad.
@@ -67,9 +68,9 @@ perdiendo información realmente útil, poniendo en riesgo el mismo proyecto
 puesto que no hay referencia alguna sobre lo que contiene, lo que hace o lo que
 debería hacer el sistema (documento de requerimientos).
 
-
 TIPOS DE DOCUMENTACIÓN
 ----------------------
+
 Actualmente existen muchos tipos de empresas y organizaciones con necesidades
 infinitamente diferentes por lo tanto el nivel de documentación en cada empresa
 es diferente.   Por ejemplo, es muy conocido que los sistemas críticos como los
@@ -77,10 +78,10 @@ aviones y naves espaciales deberían seguir un enfoque dirigido por un plan por
 lo tanto su documentación debe ser más extensa, puesto que dependen vidas
 humanas del mismo y es lógico pensar que deben ser sometidos a reguladores
 externos. Sin embargo si se trata de un sistema empresarial posiblemente sea
-mejor usar un enfoque ágil con documentación en el cual el enfoque  sea
-solo documentar lo que en realidad importa.
+mejor usar un enfoque ágil con documentación en el cual el enfoque  sea solo
+documentar lo que en realidad importa.
 
-En mi experiencia existen 3 tipos de documentación de mucha utilidad para
+En mi experiencia existen 4 tipos de documentación de mucha utilidad para
 cualquier proyecto ágil:
 
 -   Documentación de usuario
@@ -89,12 +90,30 @@ cualquier proyecto ágil:
 
 -   API DOCS.
 
-### API DOCS
-La finalidad de los api docs consiste en resumir las
-interfaces en el código fuente sin tener que visualizar directamente todo el
-código. Es el hecho de realizar documentación en el código fuente, en
-aquellos métodos que realicen operaciones complejas.
+-   Pruebas unitarias
 
+### Pruebas unitarias
+
+Las pruebas unitarias suelen ser de mucha utilidad para documentar la forma en
+que debería funcionar las diversas partes de un sistema. Ayuda a verificar que
+el sistema cumpla con los requerimientos y que los resultados son los esperados.
+Por otro lado ayuda a probar el código sin tener que ensamblarlo con el resto
+del sistema. En mi experiencia, si no se encuentra documentación de
+desarrollador, código comentado  o “api docs” de un proyecto y se posee pruebas
+unitarias, entonces será buena idea siempre leer las pruebas unitarias puesto
+que estas dan una imagen global de lo que debería hacer una clase, un componente
+o el sistema ensamblado.
+
+Un ejemplo sobre la utilidad de pruebas unitarias como documentación, la
+encontramos en el proyecto de Google llamado Guava:
+<https://github.com/google/guava/tree/master/guava-tests>
+
+### API DOCS
+
+La finalidad de los api docs consiste en resumir las interfaces en el código
+fuente sin tener que visualizar directamente todo el código. Es el hecho de
+realizar documentación en el código fuente, en aquellos métodos que realicen
+operaciones complejas.
 
 Un buen ejemplo es el sitio de zend framework:
 <https://framework.zend.com/apidoc/1.12/index.html>
@@ -102,11 +121,10 @@ Un buen ejemplo es el sitio de zend framework:
 ### Documentación de desarrollador
 
 Recomiendo ampliamente que se tome el enfoque de documentar de forma clara las
-características de un sistema. Con la finalidad de
-aclarar dudas y orientar a futuros desarrolladores, esto bien puede ser aplicado
-con documentación markdown o con un blog para desarrolladores en la intranet de
-la empresa, un buen CMS como wordpress bastaría para clasificar los temas que se
-requieren.  
+características de un sistema. Con la finalidad de aclarar dudas y orientar a
+futuros desarrolladores, esto bien puede ser aplicado con documentación markdown
+o con un blog para desarrolladores en la intranet de la empresa, un buen CMS
+como wordpress bastaría para clasificar los temas que se requieren.  
 
 Ejemplo: <https://framework.zend.com/manual/2.4/en/index.html>
 
@@ -114,8 +132,20 @@ Ejemplo: <https://framework.zend.com/manual/2.4/en/index.html>
 
 Para la documentación de usuario, la documentación markdown es de utilidad ya
 que puede posteriormente convertirse a diversos formatos. Sin embargo, para este
-tipo de documentación tal vez sería útil separarlo en un repositorio diferente en
-el que se pueda actualizar constantemente sin arruinar por accidente alguna confirmación.
+tipo de documentación tal vez sería útil separarlo en un repositorio diferente
+en el que se pueda actualizar constantemente sin arruinar por accidente alguna
+confirmación.
+
+CONCLUYENDO
+-----------
+
+En conclusión y desde  una perspectiva práctica, sin importar qué metodología se
+use y que dictan sus  principios, siempre es buena idea tomar un enfoque
+“equilibrado” y apegado al mundo real. Esto quiere decir que es necesario hacer
+un balance entre lo que se requiere en el proyecto y lo que dicta los procesos
+actuales de desarrollo. Evitar extremismos y seleccionar aquellos procesos que
+funcionan y desechar los que no funcionan basándose en argumentos ayudarán a
+ordenar el ciclo de vida del software.
 
 Si se maneja un sistema de control de versiones como GIT, debería documentarse
 ahí mismo en una carpeta llamada “docs”. Una forma ágil de realizarlo consiste
@@ -123,7 +153,6 @@ en utilizar documentos markdown. La documentación markdown puede enfocarse tant
 a documentación de desarrollador, o de usuario.
 
  
-
 
 **Bibliography:**
 
