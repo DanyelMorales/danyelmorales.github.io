@@ -29,7 +29,7 @@ son resultados de estas metodologías  son de muchas variedades, puesto que cad
 tipo de documento va enfocado a mostrar los detalles de diferentes puntos del
 sistema.
 
-En contraste las metodologías ágiles hacen énfasis en el hecho de que al
+En contraste, las metodologías ágiles hacen énfasis en el hecho de que al
 producir software el enfoque deberá ser orientado a los clientes, el usuario y
  los desarrolladores mismos. En general los principios de estas se basan en el
 “Manifiesto ágil” (“Agile manifesto for software development,” 2015)  el cual
@@ -58,9 +58,9 @@ sistema. El principio antes citado, no habla sobre documentación nula, habla en
 realidad sobre el hecho de realizar documentación puntual sobre lo que en
 realidad importa.   
 
-Lo anterior se demuestra cuando en un equipo ágil mientras los miembros están
+Lo anterior se demuestra cuando en un equipo ágil mientras los miembros esten
 activos en los proyectos sabrán los detalles del sistema. Si en un momento dado
-entrará un nuevo miembro, este sería fácilmente capacitado puesto que los
+entrara un nuevo miembro, este sería fácilmente capacitado puesto que los
 miembros poseen la información y perspectivas necesarias. Pero, si en un
 instante los miembros originales de un proyecto se van, es evidente que se irá
 perdiendo información realmente útil, poniendo en riesgo el mismo proyecto
@@ -77,7 +77,7 @@ aviones y naves espaciales deberían seguir un enfoque dirigido por un plan por
 lo tanto su documentación debe ser más extensa, puesto que dependen vidas
 humanas del mismo y es lógico pensar que deben ser sometidos a reguladores
 externos. Sin embargo si se trata de un sistema empresarial posiblemente sea
-mejor usar un enfoque ágil con documentación ágil en el cual el enfoque  sea
+mejor usar un enfoque ágil con documentación en el cual el enfoque  sea
 solo documentar lo que en realidad importa.
 
 En mi experiencia existen 3 tipos de documentación de mucha utilidad para
@@ -90,11 +90,11 @@ cualquier proyecto ágil:
 -   API DOCS.
 
 ### API DOCS
-Sin embargo también el hecho de realizar documentación en el código fuente, en
-aquellos métodos que realicen operaciones complejas para posteriormente generar
-los llamados ”API DOCS”. La finalidad de los api docs consiste en resumir las
+La finalidad de los api docs consiste en resumir las
 interfaces en el código fuente sin tener que visualizar directamente todo el
-código.
+código. Es el hecho de realizar documentación en el código fuente, en
+aquellos métodos que realicen operaciones complejas.
+
 
 Un buen ejemplo es el sitio de zend framework:
 <https://framework.zend.com/apidoc/1.12/index.html>
@@ -102,7 +102,7 @@ Un buen ejemplo es el sitio de zend framework:
 ### Documentación de desarrollador
 
 Recomiendo ampliamente que se tome el enfoque de documentar de forma clara las
-características de un sistema y el como funciona, esto con la finalidad de
+características de un sistema. Con la finalidad de
 aclarar dudas y orientar a futuros desarrolladores, esto bien puede ser aplicado
 con documentación markdown o con un blog para desarrolladores en la intranet de
 la empresa, un buen CMS como wordpress bastaría para clasificar los temas que se
@@ -118,7 +118,7 @@ tipo de documentación tal vez sería útil separarlo en un repositorio a parte 
 la cual se pueda actualizar constantemente.
 
 Si se maneja un sistema de control de versiones como GIT, debería documentarse
-ahí mismo en una carpeta llamada “docs”, una forma ágil de realizarlo consiste
+ahí mismo en una carpeta llamada “docs”. Una forma ágil de realizarlo consiste
 en utilizar documentos markdown. La documentación markdown puede enfocarse tanto
 a documentación de desarrollador, o de usuario.
 
