@@ -114,8 +114,8 @@ Ejemplo: <https://framework.zend.com/manual/2.4/en/index.html>
 
 Para la documentación de usuario, la documentación markdown es de utilidad ya
 que puede posteriormente convertirse a diversos formatos. Sin embargo, para este
-tipo de documentación tal vez sería útil separarlo en un repositorio a parte en
-la cual se pueda actualizar constantemente.
+tipo de documentación tal vez sería útil separarlo en un repositorio diferente en
+el que se pueda actualizar constantemente sin arruinar por accidente alguna confirmación.
 
 Si se maneja un sistema de control de versiones como GIT, debería documentarse
 ahí mismo en una carpeta llamada “docs”. Una forma ágil de realizarlo consiste
