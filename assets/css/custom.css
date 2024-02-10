@@ -7,6 +7,6 @@ body {}
 
 
 .highlight pre {
-border: 10px #3845fd30 solid;
-  padding: 13px;
+  border: 10px #3845fd30 solid !important;
+  padding: 13px !important;
 }
