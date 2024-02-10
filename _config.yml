@@ -16,7 +16,16 @@ feed_update_frequency: 1
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
-    disable: false
+    coderay:
+      css: class # 'class' or 'style'
+      line_numbers: true
+  syntax_highlighter:
+    enable: true
+    default_lang: ruby
+    span:
+      class: 'highlight'
+    block:
+      class: 'codehilite'
 sass:
   sass_dir: _sass
   style: :compressed
@@ -27,11 +36,11 @@ authors:
   sal:
     name: Daniel
     display_name: Daniel
-    avatar: 'assets/images/sal.png'
+    avatar: 'assets/images/mesmall.png'
     email: xxxxxxx@gmail.com
     web:  
     twitter:  
-    description: "."
+    description: "A human."
 # Social
 social:
   instagram:  
