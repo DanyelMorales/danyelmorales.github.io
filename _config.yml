@@ -5,7 +5,7 @@ baseurl: "/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Daniel
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
@@ -33,7 +33,7 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
+  Daniel:
     name: Daniel
     display_name: Daniel
     avatar: 'assets/images/mesmall.png'
