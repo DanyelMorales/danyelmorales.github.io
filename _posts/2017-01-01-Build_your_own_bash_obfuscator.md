@@ -7,7 +7,7 @@ tags:
   - Linux
 lang: en
 categories: [  tutorial ]
-author: Daniel Vera
+author: Daniel
 image: assets/images/post1.png
 ---
 
