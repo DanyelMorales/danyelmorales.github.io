@@ -29,7 +29,7 @@ An obfuscator is a program that takes the content of a file (usually with source
 Example of obfuscation in JavaScript using: https://www.obfuscator.io/
 
 
-```
+```bash
 // Paste your JavaScript code here
 
 function hi() {
@@ -43,7 +43,7 @@ hi();
 
 This is how it looks with an obfuscation algorithm:
 
-```
+```bash
 function _0x3ec8(_0x296d7c,_0x2693b2){var _0x5613e7=_0x5613();return _0x3ec8=function(_0x3ec8e4,_0x401d60){_0x3ec8e4=_0x3ec8e4-0x6d;var _0x19ddc2=_0x5613e7[_0x3ec8e4];return _0x19ddc2;},_0x3ec8(_0x296d7c,_0x2693b2);}(function(_0x41232c,_0xebe4dc){var _0x3342e0=_0x3ec8,_0x40c3c7=_0x41232c();while(!![]){try{var _0x32d38b=-parseInt(_0x3342e0(0x6e))/0x1+parseInt(_0x3342e0(0x74))/0x2*(-parseInt(_0x3342e0(0x77))/0x3)+-parseInt(_0x3342e0(0x70))/0x4+-parseInt(_0x3342e0(0x76))/0x5*(parseInt(_0x3342e0(0x73))/0x6)+-parseInt(_0x3342e0(0x75))/0x7*(-parseInt(_0x3342e0(0x72))/0x8)+parseInt(_0x3342e0(0x6f))/0x9+parseInt(_0x3342e0(0x71))/0xa;if(_0x32d38b===_0xebe4dc)break;else _0x40c3c7['push'](_0x40c3c7['shift']());}catch(_0xf65114){_0x40c3c7['push'](_0x40c3c7['shift']());}}}(_0x5613,0x59530));function hi(){var _0xb4568e=_0x3ec8;console['log'](_0xb4568e(0x6d));}function _0x5613(){var _0x3f2f47=['1774328LjslCb','12zuPtpB','86006GRGAVr','14XwSEoS','1291735TXNvTp','15KiTYuV','Hello\x20World!','655804PBgVaU','2602566hXhSme','882660GBsfGs','12412940HmFyOD'];_0x5613=function(){return _0x3f2f47;};return _0x5613();}hi();
 ```
 
@@ -111,7 +111,7 @@ Before continuing, I present the final code for reference, as otherwise, you wou
 
 **obs.sh**
 
-```
+```bash
  #!/bin/bash
 
 
@@ -172,7 +172,7 @@ rm $filex &2>/dev/null
 ```
 
 ###  Usage 
-```
+```bash
 sudo chmod u+x ./obs.sh
 
 ./obs.sh  "BANNER" "code_to_obfuscate.sh" "output_file.sh"
@@ -182,7 +182,7 @@ sudo chmod u+x ./obs.sh
 
 Create this file next to obs.sh with the name template.sh
 
-```
+```bash
 #!/bin/bash
 
 
@@ -207,7 +207,7 @@ In summary:
 - The new variables will be stored in a new file (the obfuscated file).
 - To increase confusion, our final file will be minified.
 
-```
+```bash
 IN=$(cat "input.sh")
 output="obfuscated.sh"
 while IFS=$'\n' read -ra ADDR; do
@@ -229,7 +229,7 @@ Explanation:
 
 The above code has a flaw: each line of the block is in plain text. To fix this, we will use gzip compression. Now the output of gzip is not easy to handle since it contains hidden special characters, so the next step would be to use base64 to store the result in the destination file.
 
-```
+```bash
 funcaname="xf"$(dbus-uuidgen)
 echo "" >> $output
 echo 'function '$funcaname'(){' >> $output
@@ -246,7 +246,7 @@ The obfuscated file, once executed, will start by reading its own content with t
 
 This block dynamically generates the marker and the logic to detect the compressed part, variables are generated, all of this is saved in the obfuscated destination file:
 
-```
+```bash
 barridoName="b"$(dbus-uuidgen)
 markerName="m"$(dbus-uuidgen)
 markerNameVar="m"$(dbus-uuidgen)
@@ -262,7 +262,7 @@ echo -n $barridoName"=\$(tail -n+\${"$markerNameVar"} \"\${0}\");" >> $output
 
 The next section will cause the program to terminate before reaching the marker line. Then it will print the delimiter and all compressed blocks at the end of the destination file.
 
-```
+```bash
 echo "exit 0;"  >> $output
 echo "___"$markerName"___" >> $output
 for i in "${REGX[@]}"; do
@@ -279,7 +279,7 @@ rm $filex &2>/dev/nullt
 
 The initial code has the function of loading and decompressing the obfuscated block. All content found after the marker will be considered compressed data. You'll notice that the marker is an explicitly placed delimiter to help the interpreter locate the parts that need to be processed:
 
-```
+```bash
 echo -n $"pbv921=\$(eval \"echo \$\\\"\$"$barridoName"\\\"\");" >> $outpu
 echo -n "b17320=\"\$(cat \${0})\";" >> $output
 echo -n "echo \$\"\$pbv921\" > \${0};" >> $output
@@ -292,7 +292,7 @@ echo -n "echo \$\"\$(\${0} \${@})\" && echo \$\"\$b17320\" > \${0};" >> $output
 
 figlet helps us in this task; we use this tool by passing it the text of the banner defined in the argument $1 of our obfuscator. Oh, look, more compression and ambiguous content in our obfuscated file!
 
-```
+```bash
 filex=tmpmainfile.s
 echo $"$(cat $2)" > $filex
 banner=$(figlet "$1" | gzip | base64)
