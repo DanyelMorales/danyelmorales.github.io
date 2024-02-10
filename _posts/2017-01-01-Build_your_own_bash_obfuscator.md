@@ -13,9 +13,13 @@ image: assets/images/post1.png
 
 **Note:** The steps described in this tutorial were applied on UNIX-based operating systems.
 
-
 ## Introduction:
 In this guide, we will walk through the process of building your own obfuscator in Bash. Obfuscation is the practice of deliberately making code more difficult to understand, often to protect intellectual property or deter reverse engineering. We'll explore various techniques to achieve this goal using Bash scripting.
+
+Go ahead and download the source code before proceeding: 
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://gist.github.com/DanyelMorales/63ea7925734f7abb01fae3f4f5ee9441" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-download" data-size="large" aria-label="Download buttons/github-buttons on GitHub">Download full project</a>
 
 ## Motivation
 Some time ago, I found myself in need of creating an obfuscator that would allow me to run Bash applications on a server without the source code being evident or easy to understand for end users. It wasn't a cryptographic innovation, but it served my purpose.
@@ -301,7 +305,3 @@ perl -i -pe  "s@$key@$banner@gms" ${filex}h
 # We practically replace the placeholder marker "===BANNER===" with the content from figlet, this after decompressing it.
 
 ```
-
-
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://gist.github.com/DanyelMorales/63ea7925734f7abb01fae3f4f5ee9441" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-download" data-size="large" aria-label="Download buttons/github-buttons on GitHub">Download full project</a>
