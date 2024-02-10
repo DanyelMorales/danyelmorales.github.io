@@ -8,7 +8,7 @@ tags:
 lang: en
 categories: [  tutorial ]
 author: Daniel Vera
-image: assets/images/4.jpg
+image: assets/images/post1.png
 ---
 
 ##### Note: The steps described in this tutorial were applied on UNIX-based operating systems.
