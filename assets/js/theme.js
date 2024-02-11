@@ -19,8 +19,13 @@
       $(document).ready(function () {
 
           $.fn.isMobileDevice = function() {
-              return window
+              let firstCheck = window
                   .matchMedia("only screen and (max-width: 760px)").matches;
+              if(!firstCheck){
+                  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
+                      .test(navigator.userAgent);
+              }
+              return true;
           }
 
           if($.fn.isMobileDevice()){
