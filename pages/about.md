@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: "/about/"
+permalink: "/about_box.html/"
 image: assets/images/me.png
 ---
 

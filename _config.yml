@@ -1,4 +1,4 @@
-title: "Personal Blog"
+title: "danyelmorales.github.io"
 email: 
 timezone: UTC
 baseurl: ""
@@ -29,7 +29,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: UA-113961478-1
+ganalytics: G-MRTV3GCJW1
 
 # Authors
 authors:
