@@ -17,6 +17,16 @@
       //Animation
     
       $(document).ready(function () {
+
+          $.fn.isMobileDevice = function() {
+              return window
+                  .matchMedia("only screen and (max-width: 760px)").matches;
+          }
+
+          if($.fn.isMobileDevice()){
+              executeMobileLogic($);
+          }
+
         $('body.hero-anime').removeClass('hero-anime');
       });
     
