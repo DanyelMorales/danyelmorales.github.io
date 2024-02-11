@@ -33,6 +33,8 @@
           }
 
         $('body.hero-anime').removeClass('hero-anime');
+
+          $("#greeting").randomGreeting("#greeting-lang");
       });
     
       //Menu On Hover
